@@ -70,22 +70,22 @@ Project structure
 ├── package.json
 ├── vite.config.ts
 ├── src/
-│   ├── main.tsx                 # React entry point
-│   ├── App.tsx                  # Main app, navigation, cart and modal state
-│   ├── index.css                # Global styles and Tailwind import
-│   ├── types.ts                 # Shared TypeScript interfaces
+│   ├── main.tsx                 
+│   ├── App.tsx                  
+│   ├── index.css                
+│   ├── types.ts                 
 │   ├── data/
-│   │   ├── products.ts          # Main catalogue, collections and editorial data
-│   │   ├── arProducts.ts        # Live AR-style try-on products
-│   │   └── aiTryOnProducts.ts   # Photo try-on products
+│   │   ├── products.ts          
+│   │   ├── arProducts.ts        
+│   │   └── aiTryOnProducts.ts   
 │   ├── ar/
-│   │   ├── CameraManager.ts     # Camera lifecycle and permissions
-│   │   ├── RealTimeTracker.ts   # Lightweight tracking heuristics
-│   │   └── GarmentDrawers.ts    # Canvas garment overlay drawing
+│   │   ├── CameraManager.ts     
+│   │   ├── RealTimeTracker.ts   
+│   │   └── GarmentDrawers.ts    
 │   └── components/
-│       ├── home/                # Atelier, collections, lab, journal and footer
-│       ├── shop/                # Product catalogue and shopping UI
-│       └── ar/                  # Live and photo try-on modals
+│       ├── home/                
+│       ├── shop/                
+│       └── ar/                  
 
 Roadmap ideas
 - Integrate a real pose/face/hand landmark model for more stable tracking.
