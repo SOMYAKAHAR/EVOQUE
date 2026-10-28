@@ -48,8 +48,8 @@ Prerequisites
 - Camera access for live try-on features
 
 Installation
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-cd YOUR-REPOSITORY
+git clone https://github.com/SOMYAKAHAR/EVOQUE.git
+cd EVOQUE
 npm install
 npm run dev
 Vite is configured to start on port 3000. Open the local URL printed in the terminal (typically http://localhost:3000).
